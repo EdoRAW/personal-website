@@ -48,12 +48,12 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Hello everyone!</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+              I’m Edoardo Cucco, 29 years-old Product Manager based in Torino.
+              I    to manage projects that enlight my deepest interest.
+              My experienced areas are FMCG and luxury but I always love to explore:
+              now I’m xxx for IT
               </p>
             </div>
             <Art>

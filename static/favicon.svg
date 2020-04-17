@@ -1,4 +1,12 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="512" height="512" fill="#8BD8ED"/>
-<path d="M55 471V460.013L106.424 439.087L258.074 42H266.47L409.724 452.166L458 460.013V471H303.727V460.013L346.755 453.212L302.152 329.221H162.572L120.068 439.087L167.294 460.013V471H55ZM166.77 318.234H298.479L235.51 134.078L166.77 318.234Z" fill="black"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFCB00;}
+	.st1{font-family:'TimesNewRomanPSMT';}
+	.st2{font-size:634.5436px;}
+</style>
+<rect class="st0" width="512" height="512"/>
+<text transform="matrix(1 0 0 1 62.6094 467.4229)" class="st1 st2">E</text>
 </svg>

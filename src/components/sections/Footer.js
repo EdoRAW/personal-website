@@ -6,22 +6,22 @@ import Img from 'gatsby-image';
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
-import GithubIcon from '@static/icons/github.svg';
+import LinkedinIcon from '@static/icons/linkedin.svg';
 import InstagramIcon from '@static/icons/instagram.svg';
-import TwitterIcon from '@static/icons/twitter.svg';
+import FacebookIcon from '@static/icons/facebook.svg';
 
 const SOCIAL = [
   {
-    icon: GithubIcon,
-    link: 'https://github.com/ajayns/gatsby-absurd',
+    icon: LinkedinIcon,
+    link: 'https://www.linkedin.com/in/edoardocucco/',
   },
   {
     icon: InstagramIcon,
-    link: 'https://instagram.com/ajay_ns',
+    link: 'https://instagram.com/edoraw',
   },
   {
-    icon: TwitterIcon,
-    link: 'https://twitter.com/ajayns08',
+    icon: FacebookIcon,
+    link: 'https://www.facebook.com/edoardo.cucco',
   },
 ];
 
@@ -52,12 +52,12 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Absurd</h2>
+              <h2>Edoardocuc.co</h2>
               <span>
                 Illustrations by
                 {` `}
-                <ExternalLink href="https://twitter.com/diana_valeanu">
-                  @diana_valeanu
+                <ExternalLink href="https://www.instagram.com/illuila/">
+                  @Ilaria Saracco
                 </ExternalLink>
               </span>
             </Copyright>
