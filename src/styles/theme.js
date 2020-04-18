@@ -1,6 +1,6 @@
 const theme = {
   font: {
-    primary: `'Times New Romans', serif`,
+    primary: `'Times New Roman', serif`,
     secondary: `'Futura', serif`,
   },
   font_size: {
