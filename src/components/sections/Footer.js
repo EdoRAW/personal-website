@@ -52,7 +52,7 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Edoardocuc.co</h2>
+              <h2>edoardocuc.co</h2>
               <span>
                 Illustrations by
                 {` `}

@@ -50,10 +50,10 @@ const About = () => (
             <div>
               <h2>Hello everyone!</h2>
               <p>
-              I’m Edoardo Cucco, 29 years-old Product Manager based in Torino.
-              I    to manage projects that enlight my deepest interest.
-              My experienced areas are FMCG and luxury but I always love to explore:
-              now I’m xxx for IT
+              I’m Edoardo Cucco, 29 years-old Product Manager based in Torino.   <br />
+              I love to manage projects that enlighten my deepest interest.   <br />
+              My experienced areas are FMCG and luxury but I like to explore:
+              now I’m truly interested in IT and technologies.
               </p>
             </div>
             <Art>
@@ -65,23 +65,22 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>Passion and interests</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+                 I love specialty coffees, raw denim and 
+                 analog photography:<br /> you can check my
+                  latest works <a href="https://www.instagram.com/edoraw/">here</a>.
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
+              <h2>A new way to intent work</h2>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
-                <br />
-                <br />
-                Gatsby is fast in every way that matters.
+              I strongly believe in dialogue and respect:<br />
+              This led me to develop strong empathy <br />
+              and excellent communication skills.
+           
               </p>
             </div>
             <Art>
