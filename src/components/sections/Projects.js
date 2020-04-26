@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-import { Container } from '@components/global';
+import { Container, Section } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
 const Projects = () => (
@@ -23,41 +23,32 @@ const Projects = () => (
       }
     `}
     render={data => (
-      <HeaderWrapper>
-        <Container>
-          <Grid>
-            <Art>
-              <Img fluid={data.art_test.childImageSharp.fluid} />
-            </Art>
-            <Text>
-              <h1>
-              I'm a new section
-              <br />
-              to solve problems.
+      <Section id="projects" accent>
+          <Container>
+            <Grid>
+              <Art>
+                <Img fluid={data.art_test.childImageSharp.fluid} />
+              </Art>
+              <Text>
+                <h1>
+                  I'm a new section
+                  <br />
+                  to solve problems.
+                  <br />
+                </h1>
                 <br />
-              </h1>
-              <br />
-              <p>
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                  Check how &nbsp;&#x2794;
-                </StyledExternalLink>
-              </p>
-            </Text>
-          </Grid>
-        </Container>
-      </HeaderWrapper>
+                <p>
+                  <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
+                    Check how &nbsp;&#x2794;
+                  </StyledExternalLink>
+                </p>
+              </Text>
+            </Grid>
+          </Container>
+      </Section>
     )}
   />
 );
-
-const HeaderWrapper = styled.header`
-  background-color: ${props => props.theme.color.primary};
-  padding-top: 96px;
-
-  @media (max-width: ${props => props.theme.screen.md}) {
-    padding-top: 128px;
-  }
-`;
 
 const Art = styled.figure`
   width: 100%;
