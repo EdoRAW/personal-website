@@ -65,17 +65,7 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Passion and interests</h2>
-              <p>
-                 I love specialty coffees, raw denim and 
-                 analog photography:<br /> you can check my
-                  latest works <a href="https://www.instagram.com/edoraw/">here</a>.
-              </p>
-            </div>
-          </Grid>
-          <Grid>
-            <div>
-              <h2>A new way to intent work</h2>
+              <h2>I love working with people</h2>
               <p>
               I strongly believe in dialogue and respect:<br />
               This led me to develop strong empathy <br />
@@ -83,6 +73,18 @@ const About = () => (
            
               </p>
             </div>
+          
+          </Grid>
+          <Grid>
+          <div>
+              <h2>Passion and interests</h2>
+              <p>
+                 I love specialty coffees, raw denim and 
+                 analog photography:<br /> you can check my
+                  latest works <a href="https://www.instagram.com/edoraw/">here</a>. 
+              </p>
+            </div>
+          
             <Art>
               <Img fluid={data.art_ideas.childImageSharp.fluid} />
             </Art>
