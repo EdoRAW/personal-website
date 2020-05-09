@@ -31,16 +31,17 @@ const Projects = () => (
               </Art>
               <Text>
                 <h1>
-                  I'm a new section
-                  <br />
-                  to solve problems.
-                  <br />
+                  My latest committments:
                 </h1>
-                <br />
+                
                 <p>
-                  <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                    Check how &nbsp;&#x2794;
-                  </StyledExternalLink>
+                  <ul>
+                  <li> <a href="http://www.sito.ext/pagina.html">1895</a>: New super premium coffee brand launch </li>
+                  <li>This incredible website made with Federico and Letizia</li>
+                  <li>Orijeans: my first denim brand</li>
+
+                  </ul>
+
                 </p>
               </Text>
             </Grid>
@@ -96,5 +97,7 @@ const StyledExternalLink = styled(ExternalLink)`
     color: ${props => props.theme.color.black.regular};
   }
 `;
+
+
 
 export default Projects;
