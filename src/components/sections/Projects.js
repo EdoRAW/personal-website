@@ -38,7 +38,7 @@ const Projects = () => (
                   <ul>
                   <li> <a href="http://www.sito.ext/pagina.html">1895</a>: New super premium coffee brand launch </li>
                   <li>This incredible website made with Federico and Letizia</li>
-                  <li>Orijeans: my first denim brand</li>
+                  <li> <a href="http://www.sito.ext/pagina.html">Orijeans</a>: my first denim brand</li>
 
                   </ul>
 

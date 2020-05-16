@@ -70,6 +70,8 @@ const Team = () => (
       <Section id="references" accent="secondary">
         <Container style={{ position: 'relative' }}>
           <h1>References</h1>
+          <p>Wants a honest feedback on my work? </p>
+          <p>Click on the pictures and write to my contacts!</p>
           <TeamGrid>
             {TEAM.map(({ name, image, role }) => {
               const img = data.allFile.edges.find(
